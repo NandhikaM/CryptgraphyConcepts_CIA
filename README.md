@@ -84,7 +84,7 @@ decrypted = hash_gronsfeld_decrypt(ciphertext, key)
 | Key (mod 10^8, padded) | `[6, 7, 8, 3, 8, 0, 8, 1]` |
 | Encryption | H+6=N, E+7=L, L+8=T, L+3=O, O+8=W · · · |
 | Ciphertext | `NLTOW WWSRK` |
-| Decrypted | `HELLO WORLD` ✓ |
+| Decrypted | `HELLO WORLD` |
 
 ### Example 2 — "CRYPTOGRAPHY" (key_length = 12)
 
@@ -94,7 +94,7 @@ decrypted = hash_gronsfeld_decrypt(ciphertext, key)
 | DJB2 Hash | `8978429637394878153329` |
 | Key | `[3, 9, 4, 8, 7, 8, 1, 5, 3, 3, 2, 9]` |
 | Ciphertext | `FACXAWHWDSJH` |
-| Decrypted | `CRYPTOGRAPHY` ✓ |
+| Decrypted | `CRYPTOGRAPHY` |
 
 ### Example 3 — "NANDHIKA M" (key_length = 10)
 
@@ -104,7 +104,7 @@ decrypted = hash_gronsfeld_decrypt(ciphertext, key)
 | DJB2 Hash | `8245141447016999888` |
 | Key | `[7, 0, 1, 6, 9, 9, 9, 8, 8, 8]` |
 | Ciphertext | `UAOJQRTI U` |
-| Decrypted | `NANDHIKA M` ✓ |
+| Decrypted | `NANDHIKA M` |
 
 ### Example 4 — "THE QUICK BROWN FOX" (key_length = 20)
 
@@ -114,7 +114,7 @@ decrypted = hash_gronsfeld_decrypt(ciphertext, key)
 | DJB2 Hash | `382682614787349019726323614090008` |
 | Key | `[4, 9, 0, 1, 9, 7, 2, 6, 3, 2, 3, 6, 1, 4, 0, 9, 0, 0, 0, 8]` |
 | Ciphertext | `XQE RDPEQ ETRCO JOG` |
-| Decrypted | `THE QUICK BROWN FOX` ✓ |
+| Decrypted | `THE QUICK BROWN FOX` |
 
 ---
 
